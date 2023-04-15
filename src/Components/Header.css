@@ -1,0 +1,69 @@
+.header{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+display: flex;
+justify-content: space-between;
+
+}
+.sp{
+    color: #8C4E03
+}
+.icon{
+    width: 36px;
+    height: 36px;
+margin: 15px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+    border-radius: 4rem;
+}
+.AppName{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    width: 50%;
+}
+.searchinput{
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+@media only screen and (max-width: 600px) {
+.header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 80%;
+
+}
+.AppName{
+    margin-bottom: 1rem;
+
+}
+}
+
+@media only screen and (max-width: 360px) {
+    .search{
+        width: 100%;
+    }
+    .searchinput{
+        width: 20vw;
+    }
+}
