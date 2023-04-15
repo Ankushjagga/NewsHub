@@ -1,4 +1,4 @@
-import React, { useState,CSSProperties  } from "react";
+import React, { useState  } from "react";
 import Header from "./Components/Header";
 import Newslist from "./Components/News-list";
 import axios from "axios";
