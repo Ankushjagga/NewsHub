@@ -1,12 +1,11 @@
-#  A simple recipe app
+#  A simple News Website
 
 ## Features
-- It will display the recipe when a user seacrh for it in seacrhbox without pressing enter key
-- BY clicking on Ingridents it will pop a dropdown and show the details
-- By clicking on seemore it will get you to the new page and display full recpie of food
+- It will display the News when a user search for it in searchbox without pressing enter key
+- By clicking on seemore it will get you to the new page and display full Article of News
 
 ### Api used
-edamam Recipe API to get recipe info.(Allows 10calls/min)
+Gnews News API to get News info.(Allows 10calls/min)
 
 #### caution
-please note it will take some time to display recipies
+please note it will take some time to display News
