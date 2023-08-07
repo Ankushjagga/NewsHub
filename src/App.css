@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     transition: all 1s ease-in-out;
-
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Sora', sans-serif;
+letter-spacing: 1px;
 }
 .row_posters{
     display: flex;

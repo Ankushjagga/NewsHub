@@ -29,7 +29,7 @@ function NewsList({ news }) {
           >
             <button className="btn" onClick={() => window.open(news.url)}>
 
-            see more <BsFillFastForwardFill style={{marginLeft:"5px"}} />
+            see more <BsFillFastForwardFill style={{marginLeft:"5px"}} className="btn-in" />
             </button>
           </span>
         </div>

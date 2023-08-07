@@ -1,6 +1,6 @@
 import React, { useState  } from "react";
-import Header from "./Components/Header";
-import Newslist from "./Components/News-list";
+import Header from "./Components/Header/Header";
+import Newslist from "./Components/Newslist/News-list";
 import axios from "axios";
 import "./App.css";
 import Footer from "./Components/footer/Footer";
@@ -33,7 +33,7 @@ function App() {
     setLoading(true);
 
     const response = await axios.get(
-      `https://gnews.io/api/v4/search?q=technology&apikey=${API_KEY2}`
+      `https://gnews.io/api/v4/search?q=cricket&apikey=${API_KEY2}`
 
     );
     setTechNews(response.data.articles);
@@ -57,6 +57,7 @@ function App() {
 
   return (
     <>
+  
       <Header onTextChange={onTextChange} />
       <div className="row_posters">
         {!loading ? newsList?.length
